@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Crete Round", serif;
+  }
+  
+  body {
+    background-color: #FBFAF9;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 128, 0, 0.1);
+    max-width: 600px;
+    width: 80%;
+  }
+  
+  .logo {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #02398F;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  span {
+    color: #333;
+  }
+  
+  .form-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    border: 2px solid #1158c9;
+    border-radius: 8px;
+    width: 120px;
+  }
+  
+  button {
+    padding: 15px 40px;
+    background-color: #1158c9;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px #02398F;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-transform: uppercase;
+  }
+
+  button:hover {
+    background-color: #1692E2;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+    color: #333;
+  }
+  
+  button:active {
+    background-color: #22AA46;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
